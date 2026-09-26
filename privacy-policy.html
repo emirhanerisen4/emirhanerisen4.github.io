@@ -27,7 +27,7 @@
 <div class="wrap">
 
 <h1>Fabrika Yönetme - Idle</h1>
-<div class="meta">Gizlilik Politikası · Sürüm 1.0.0 · Son güncelleme: 20 Eylül 2026</div>
+<div class="meta">Gizlilik Politikası · Sürüm 1.1.0 · Son güncelleme: 26 Eylül 2026</div>
 
 <div class="box">
 <b>Kısaca:</b> Fabrika Yönetme tek oyunculuk bir idle-tycoon oyunudur. Hesap açmanız gerekmez.
@@ -104,6 +104,11 @@ kullanabilirsiniz.</p>
 <p>Uygulama yalnızca <code>android.permission.INTERNET</code> ve
 <code>android.permission.ACCESS_NETWORK_STATE</code> (reklam yüklemek için) ve
 <code>com.google.android.gms.permission.AD_ID</code> (reklam kimliği) izinlerini kullanır.
+Ayrıca <b>isteğe bağlı</b> olarak <code>android.permission.POST_NOTIFICATIONS</code> (bildirim göstermek)
+ve bununla birlikte gelen <code>RECEIVE_BOOT_COMPLETED</code> / <code>WAKE_LOCK</code> izinlerini kullanır:
+oyun, cihazınızda <b>yerel</b> hatırlatmalar planlar (günlük ödül, çevrimdışı üretimin dolması, deponun
+dolması). Bu bildirimler cihazda üretilir; hiçbir sunucuya veri gönderilmez. Bildirimleri oyun içinde
+Holding → Ayarlar'dan ya da telefon ayarlarından kapatabilirsiniz.
 Kamera, mikrofon, konum, rehber, SMS, dosya veya arka plan konum izni <b>istemez</b>.</p>
 
 <h2>7. Güvenlik</h2>
@@ -124,7 +129,7 @@ bölümünde de gösterilir.</p>
 <hr>
 
 <h1>Fabrika Yönetme - Idle (Factory Manager - Idle)</h1>
-<div class="meta">Privacy Policy · Version 1.0.0 · Last updated: 20 September 2026</div>
+<div class="meta">Privacy Policy · Version 1.1.0 · Last updated: 26 September 2026</div>
 
 <div class="box">
 <b>In short:</b> Fabrika Yönetme is a single-player idle tycoon game. No account is required.
@@ -178,7 +183,11 @@ or by uninstalling the app. In both cases the data is permanently gone; we hold 
 
 <h2>6. Permissions</h2>
 <p>The app uses only <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> (to load ads) and
-<code>AD_ID</code>. It requests no camera, microphone, location, contacts, SMS, file or
+<code>AD_ID</code>. It also <b>optionally</b> uses <code>POST_NOTIFICATIONS</code> (to show notifications)
+together with the <code>RECEIVE_BOOT_COMPLETED</code> / <code>WAKE_LOCK</code> permissions that come with it:
+the game schedules <b>local</b> reminders on your device (daily reward, offline production cap reached,
+warehouse filling up). These notifications are created on the device; no data is sent to any server.
+You can turn them off in the game under Holding → Settings or in your phone settings. It requests no camera, microphone, location, contacts, SMS, file or
 background-location permissions.</p>
 
 <h2>7. Changes</h2>
